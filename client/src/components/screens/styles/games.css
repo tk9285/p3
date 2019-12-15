@@ -1,0 +1,36 @@
+.game-sizing{
+    width: 250px;
+    height: 250px;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+.game-cover{
+    width: 150px;
+    height: 210px;
+    margin:auto;
+}
+.game-title{
+    margin: auto;
+}
+.list-style{
+    padding-left: 0px;
+    margin-top: 75px;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+}
+
+.heart{
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+   background: url('https://i.pinimg.com/originals/e8/b7/49/e8b749ef64c58a40c65ae330df605e68.png') ;  
+   background-size: cover; 
+   border: none;
+}
+
+

@@ -1,0 +1,154 @@
+body{
+}
+
+.home-container{
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/9660bc21340091.562ff8a21e3b9.jpg') ;
+    height:75vh;
+    opacity: .95;
+  
+}
+
+.Welcome{
+  font-size: 145px;
+  color:white;
+  padding-top: 120px;
+  padding-bottom: 0px;
+  text-shadow: -7px -5px rgb(0, 0, 0);
+
+
+}
+.welcome-text{
+  font-size: 40px;
+  padding-top: -100px;
+  color:white;
+  text-shadow: -3px -3px rgb(0, 0, 0);
+
+}
+  .mario-group{
+    height:100px;
+    position: absolute;
+    top: 520px;
+    left: -450px;
+    animation-name: move-right;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    transform: scaleX(-1);
+
+  }
+  .mario-group2{
+    height:100px;
+    position: absolute;
+    top: 115px;
+    right: -450px;
+    animation-name: move-left;
+    animation-duration: 10s;
+    animation-delay: 7.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+  }
+  .pipe{
+    height:200px;
+    position: absolute;
+    top: 70px;
+    left: -40px;
+    animation-name: open-portal;
+    animation-duration: 7s ;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+.portal-orange{
+    height:125px;
+    position: absolute;
+    top: 93px;
+    right: -10px;
+    animation-name: open-portal;
+    animation-duration: 10s ;
+    animation-delay: 8s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+.portal-blue{
+    height:115px;
+    position: absolute;
+    top: 515px;
+    left: -18px;
+    animation-name: open-portal;
+    animation-duration: 7s ;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+.portal-blue2{
+    height:115px;
+    position: absolute;
+    top: 515px;
+    right: -25px;
+    animation-name: open-portal;
+    animation-duration: 10s ;
+    animation-delay: 8s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+.pyro-right{
+  height:120px;
+  position: absolute;
+  top: 515px;
+  left: -450px;
+  animation-name: move-right;
+  animation-duration: 11s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+.lara{
+  height:120px;
+  position: absolute;
+  top: 515px;
+  left: -450px;
+  animation-name: move-right;
+  animation-duration: 13s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+.pyro-left{
+    height:120px;
+    position: absolute;
+    top: 100px;
+    right: -500px;
+    animation-name: move-left;
+    animation-duration: 10s;
+    animation-delay: 9.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+  
+}
+
+
+  @keyframes open-portal{
+    from{transform: translateX(0px)}
+    to{transform: translateX(0px)}
+
+  }
+
+  @keyframes move-right{
+    from{transform: translateX(1px)}
+    to{transform: translateX(1780px)}
+
+  }
+  @keyframes pyro-move-right{
+    from{transform: translateX(1px)}
+    to{transform: translateX(1780px)}
+
+  }
+
+  @keyframes move-left{
+    from{transform: translateX(0px)}
+    to{transform: translateX(-2200px)}
+
+  }
+
+

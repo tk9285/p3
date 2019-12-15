@@ -1,0 +1,17 @@
+.favorite_container{
+    font-family: 'Krungthep';
+    font-size: 25px;
+}
+​
+.ul {
+    padding: 0px;
+}
+​
+.game_img {
+    width: 80%;
+    margin: 30px;
+}
+​
+.game_title {
+    margin: 30px 50px;
+}

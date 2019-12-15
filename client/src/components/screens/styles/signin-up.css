@@ -1,0 +1,55 @@
+.multi-container{
+  background:white;
+}
+.input-container{
+
+    background-color: rgba(250, 235, 215, 0.365);
+    width: 40%;
+    height: 60vh;
+    border: solid black 5px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+.text-box{
+
+    width: 250px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+
+
+.form-box{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: #97989da6;
+    box-sizing: border-box;
+    overflow: scroll;
+    box-shadow: 0 20px 50px rgb(23, 32, 90);
+    border: 3px solid black;
+    color: white;
+    padding: 20px;
+  }
+  .form-container{
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    margin: auto;
+  }
+
+  .sign-button{
+    margin-top: 25px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  

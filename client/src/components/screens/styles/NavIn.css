@@ -1,0 +1,81 @@
+.nav-signed-in{
+    background: black;
+    height: 100px;
+    width: 100%;
+    
+}
+
+.genius-title-in{
+    justify-content: flex-start;
+    font-family: 'Krungthep';
+	font-size: 40px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 35px;
+    align-content: center;
+    display: flex;
+
+    background: linear-gradient(
+		60deg,
+		hsl(0, 75%, 50%) 10%,
+		hsl(20, 75%, 50%) 10%,
+		hsl(20, 75%, 50%) 25%,
+		hsl(50, 75%, 50%) 25%,
+		hsl(50, 75%, 50%) 40%,
+		hsl(130, 75%, 50%) 40%,
+		hsl(130, 75%, 50%) 55%,
+		hsl(200, 75%, 50%) 55%,
+		hsl(200, 75%, 50%) 70%,
+		hsl(260, 75%, 50%) 70%,
+		hsl(260, 75%, 50%) 85%,
+		hsl(0, 75%, 50%) 85%
+	);
+
+	color: #fff;
+	-webkit-background-clip: text;
+   	-webkit-text-fill-color: transparent;
+   	animation: 10s Game linear infinite,
+   	60s Genius ease;
+}
+
+
+body{
+	overflow: scroll;
+}
+
+
+@keyframes Game {
+	100% { background-position: 100vw 0px; }
+}
+
+@keyframes Genius {
+	100% { transform: scale(1.1);}
+}
+
+
+.categories{
+    font-size: 25px;
+    color: white;
+    justify-content: flex-end;
+    margin: 30px;
+    text-decoration: none;
+
+}
+.User-Page{
+    font-size: 25px;
+    color: white;
+    justify-content: flex-end;
+    margin: 30px;
+    text-decoration: none;
+}
+
+
+
+.Sign-Out{
+    font-size: 25px;
+    color: white;
+    justify-content: flex-end;
+    margin: 30px;
+    margin-right: 100px;
+    text-decoration: none;
+}

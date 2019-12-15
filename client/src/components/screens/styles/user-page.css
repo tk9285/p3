@@ -1,0 +1,36 @@
+body{
+}
+
+.user-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    
+}
+.account-info{
+    margin: 20px;
+    height:auto;
+    width: 40%;
+    border: black solid 5px;
+}
+.user-img {
+    /* background-image: url('https://countrymusichalloffame.org/content/uploads/2019/03/Parton_Dolly.jpg') ; */
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.favorites{
+    display: flex;
+    flex-flow: row;
+    margin: 20px;
+    height:auto;
+    width: 40%;
+    border: black solid 5px;
+    align-content: center;
+    text-align: center;
+}

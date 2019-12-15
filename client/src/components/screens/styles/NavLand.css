@@ -1,0 +1,76 @@
+
+nav{
+    background-color: black ;
+    height: 130px;
+    width: 100%;
+    color: white;
+    flex-flow: row;
+    display: flex;
+}
+.Landing-Sign-Up{
+    display:flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  .Landing-Log-In{
+    
+    display: flex;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+
+  }
+
+  .genius-title{
+    font-family: 'Krungthep';
+	font-size: 40px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    display: flex;
+
+    background: linear-gradient(
+		60deg,
+		hsl(0, 75%, 50%) 10%,
+		hsl(20, 75%, 50%) 10%,
+		hsl(20, 75%, 50%) 25%,
+		hsl(50, 75%, 50%) 25%,
+		hsl(50, 75%, 50%) 40%,
+		hsl(130, 75%, 50%) 40%,
+		hsl(130, 75%, 50%) 55%,
+		hsl(200, 75%, 50%) 55%,
+		hsl(200, 75%, 50%) 70%,
+		hsl(260, 75%, 50%) 70%,
+		hsl(260, 75%, 50%) 85%,
+		hsl(0, 75%, 50%) 85%
+	);
+
+	color: #fff;
+	-webkit-background-clip: text;
+   	-webkit-text-fill-color: transparent;
+   	animation: 10s Game linear infinite,
+   	60s Genius ease;
+}
+
+
+body{
+	overflow: scroll;
+}
+
+
+@keyframes Game {
+	100% { background-position: 100vw 0px; }
+}
+
+@keyframes Genius {
+	100% { transform: scale(1.1);}
+}
